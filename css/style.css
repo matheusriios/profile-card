@@ -1,0 +1,81 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	list-style: none;
+	
+}
+
+body{
+	height: 100vh;
+	background-color: #bcdee7;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#site-completo{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #fff;
+	border-radius: 10px;
+ 	box-shadow: 1px 3px 2px #888888;
+	width: 30vw;
+	padding: 20px 15px;
+	/*height: 80vh;*/
+	min-height: 450px;
+	/*min-width: 80vw;*/
+}
+
+.img img{
+	display: flex;
+	width: 170px;
+	height: 170px;
+	margin-top: 10vh;
+	border-radius: 50%;
+	transition: margin, border 0.3s ease;
+}
+
+img:hover{
+	width: 200px;
+	height: 200px;
+	box-shadow: 0px 0px 15px black;
+}	
+
+p{
+	line-height: 1.5rem;
+}
+
+.profile{
+	margin-top: 10px;
+}
+
+.nome{
+	text-align: center;
+	margin-top: 15px;
+}
+
+.name-principal{
+	color: red;
+}
+
+.name-design{
+	color: #000000;
+}
+
+.texto-princ{
+	margin: 0px 9px;
+	text-align: center;
+}
+
+.social{
+	display: flex;	
+	justify-content: space-around;
+	margin: 30px 0;
+	width: 100%;
+}
+
+.social a{
+	color: red;
+}
